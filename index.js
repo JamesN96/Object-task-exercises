@@ -38,6 +38,23 @@ delete user.name;
     let schedule = {};
     schedule["8:30"] = "get up";
 
-    alert(isEmpty(schedule));
+    // alert(isEmpty(schedule));
+
+// Task 3 Sum Object Properties
+
+let salaries = { 
+    John: 100,
+    Anne: 160,
+    Pete: 130
+}
+
+let sum = 0;
+
+// loop through salaries
+for (let prop in salaries) {
+    sum += salaries[prop];
+}  
+
+// console.log(sum);
 
 
