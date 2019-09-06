@@ -40,4 +40,4 @@ delete user.name;
 
     alert(isEmpty(schedule));
 
-    // let isEmpty = obj => ? (obj.property)
+
