@@ -57,4 +57,20 @@ for (let prop in salaries) {
 
 // console.log(sum);
 
+// Task 4: Multiply numeric properties by 2
+    // Create a function multiplyNumeric(obj) that multiplies all numeric properties of obj by 2.
+
+let menu = {
+    width: 200,
+    height: 300,
+    title: "My Menu"
+}
+
+function multiplyNumber(obj) {
+    for(let prop in obj) {
+        if(typeof obj[prop] === "number") {
+            obj[prop] *= 2;
+        }
+    }
+}
 
